@@ -1,0 +1,1 @@
+<view class="city"><block wx:for="{{cityList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view class="city-list"><view class="letter">{{item.title}}</view><view class="list"><block wx:for="{{item.city}}" wx:for-item="v" wx:for-index="__i0__" wx:key="city"><view class="citys">{{v}}</view></block></view></view></block></view>

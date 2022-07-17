@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/history/history",
+    "pages/my/my",
+    "pages/chat/chat",
+    "pages/map/map",
+    "pages/city/city"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/img/icon_main.png",
+        "selectedIconPath": "static/img/icon_main_a.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "iconPath": "static/img/icon_chat.png",
+        "selectedIconPath": "static/img/icon_chat_s.png",
+        "text": "微聊"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "iconPath": "static/img/icon_history.png",
+        "selectedIconPath": "static/img/icon_history_s.png",
+        "text": "足迹"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/img/icon_my.png",
+        "selectedIconPath": "static/img/icon_my_s.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "允许"
+    }
+  },
+  "usingComponents": {
+    "header": "/components/header"
+  }
+}
